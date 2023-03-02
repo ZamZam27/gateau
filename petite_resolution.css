@@ -1,0 +1,28 @@
+/*Responsive design */
+@media (max-width:930px){
+    body{
+        font-size: 15px;
+    }
+    .blocs{
+        flex-direction: column;
+    }
+    fieldset{
+        width: 50%;
+        margin: auto;
+        
+    }
+    legend{
+        width: 20%;
+        padding: 0.5rem 0;
+    }
+    .container img{
+        width: 410px;
+        height: 130px;
+    }
+   
+    .blocs .bloc{
+        width: 100%;
+    }
+  
+    
+}
